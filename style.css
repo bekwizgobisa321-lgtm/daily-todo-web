@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing:border-box;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+
+/* // Main Card */
+
+
+.todo-card {
+    width:500px;
+    background-color:white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.todo-card h1 {
+    text-align: center;
+    margin-bottom:25px;
+}
+
+/* Input Section */
+
+.add-task {
+    display: flex;
+    gap: 10px;
+
+      margin-bottom:25px;
+    
+}
+
+.add-task input {
+   flex:1;
+   padding:10px;
+   border: 1px solid #ccc;
+   font-size: 17px;
+}
+
+.add-task button {
+padding: 10px 19px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+
