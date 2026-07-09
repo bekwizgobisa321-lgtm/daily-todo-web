@@ -57,4 +57,22 @@ border-radius: 6px;
 cursor: pointer;
 }
 
+/* ==========================
+   Task List
+========================== */
+
+.task-list {
+    list-style: none;
+}
+
+.T-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    margin-bottom: 12px;
+     
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
 
