@@ -51,6 +51,9 @@ body {
 .add-task button {
 padding: 10px 19px;
 border: none;
+color: #fff;
+font-weight: bold;
+background-color: rgb(15, 110, 168);
 border-radius: 6px;
 cursor: pointer;
 }
