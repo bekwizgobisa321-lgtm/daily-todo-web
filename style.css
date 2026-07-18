@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items:center;
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 
@@ -30,22 +30,18 @@ body {
     text-align: center;
     margin-bottom:25px;
 }
-
-
-
 .add-task {
     display: flex;
     gap: 10px;
-
-      margin-bottom:25px;
+    margin-bottom:25px;
     
 }
 
 .add-task input {
-   flex:1;
-   padding:10px;
-   border: 1px solid #ccc;
-   font-size: 17px;
+flex:1;
+padding:10px;
+ border: 1px solid #ccc;
+font-size: 17px;
 }
 
 .add-task button {
@@ -57,7 +53,13 @@ background-color: rgb(15, 110, 168);
 border-radius: 6px;
 cursor: pointer;
 }
-
+.add-task button:hover{
+    background-color: aqua;
+    color: whitesmoke;
+}
+.add-task button:hover{
+    clip-path: peel(z);
+}
 
 .task-list {
     list-style: none;
@@ -86,6 +88,8 @@ cursor: pointer;
     height: 40px;
     font-size: 20px;
     
+    background-color:rgb(15, 110, 168);
+    color: #fff;
     font-weight: bold;
     border: none;
     border-radius: 50%;
