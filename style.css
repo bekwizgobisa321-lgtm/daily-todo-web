@@ -20,7 +20,6 @@ body {
 }
 
 
-
 .todo-card {
     width:500px;
     background-color:white;
@@ -95,6 +94,10 @@ cursor: pointer;
     border: none;
     border-radius: 50%;
     cursor: pointer;
+}
+.delete-btn:hover{
+    background-color: rgb(0, 189, 252);
+    color: whitesmoke;
 }
 
 /* ==========================

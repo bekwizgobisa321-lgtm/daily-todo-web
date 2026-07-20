@@ -1,11 +1,12 @@
+
 const taskInput = document.querySelector("#task-input");
 const addBtn = document.querySelector("#the-add-task-btn");
 const taskList = document.querySelector(".task-list");
-/////
+
 let tasks = [];
 const savedTasks = localStorage.getItem("tasks");
 console.log(savedTasks);
-///
+
 addBtn.addEventListener("click", function () {
   const enteredText = taskInput.value;
 
@@ -18,9 +19,9 @@ addBtn.addEventListener("click", function () {
   };
   tasks.push(newTask);
   console.log(tasks);
-  //
+
   localStorage.setItem("tasks", JSON.stringify(tasks));
-  //'
+  
   const li = document.createElement("li");
   li.className = "T-item";
   li.innerHTML = `
@@ -38,6 +39,7 @@ taskList.addEventListener("click", function (event) {
     const taskItem = event.target.parentElement;
     taskItem.remove();
   }
+
 
  if (event.target.classList.contains("task-check")) {
    const taskText = event.target.nextElementSibling;
