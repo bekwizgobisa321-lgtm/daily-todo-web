@@ -1,6 +1,6 @@
 # To-Do List
 
-A simple, single-page to-do list app built with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies.
+A simple, to-do list app built with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies.
 
 ## Features
 
